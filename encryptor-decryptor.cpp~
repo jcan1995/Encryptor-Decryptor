@@ -27,8 +27,7 @@ public:
   void decryptFileUsingCrypto();                        //Decrypts a whole file using the cryptogram method with a cryptogram.
 };
 
-//security::security(int r,string cryp)           //A constructor method with "r" initialized with 0 and "cryp" initialized with a space.
-security::security() 
+security::security(int r,string cryp)           //A constructor method with "r" initialized with 0 and "cryp" initialized with a space.
 {
   rot = 0;     //Set attributes equal to the initial values.
   cryptogram = " ";
